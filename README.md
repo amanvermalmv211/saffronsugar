@@ -1,16 +1,108 @@
-# React + Vite
+# Saffron & Sugar
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A premium boutique sweet shop website built with React and Redux Toolkit.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Brand Concept & Personality
 
-## React Compiler
+**Saffron & Sugar** represents a modern yet traditional Indian sweet boutique rooted in authenticity, craftsmanship, and warmth.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+The brand personality is:
 
-## Expanding the ESLint configuration
+- Warm and nostalgic
+- Premium but not corporate
+- Traditional with modern presentation
+- Family-owned and community-focused
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+The tone avoids commercial marketing language and instead feels personal and human — like a neighbourhood sweet shop that has served generations.
+
+---
+
+## Tech Stack
+
+- React (Vite)
+- Redux Toolkit (Global State Management)
+- React Router DOM (Client-side Routing)
+- Tailwind CSS (Styling)
+- Netlify (Deployment)
+
+---
+
+## Design Decisions
+
+### Colour Choices
+
+The colour palette is inspired by traditional Indian sweets:
+
+- Saffron tone for headings and accents  
+- Cream background for softness and warmth  
+- Deep earthy secondary colour for balance  
+
+This avoids harsh white backgrounds and creates a premium boutique feel.
+
+---
+
+### Typography
+
+- Elegant serif-style heading font for heritage feel  
+- Clean sans-serif body font for readability  
+
+This balances tradition with modern clarity.
+
+---
+
+### Layout Decisions
+
+- Mobile-first responsive design  
+- Clean grid structure  
+- Equal-height menu cards for visual consistency  
+- Horizontal menu layout on large screens  
+- Testimonials displayed in grid format  
+
+The UI prioritizes clarity, spacing, and visual balance.
+
+---
+
+## Assumptions
+
+- Dietary tags:  
+  - V = Vegetarian  
+  - GF = Gluten Free  
+
+- Menu data is static.  
+- Images are stock placeholders.  
+- The brand is positioned as a premium sweet boutique in Bangalore.  
+
+---
+
+## Known Limitations
+
+- No backend integration  
+- No authentication system  
+- No cart or checkout functionality  
+- No payment gateway integration  
+- Static testimonials  
+- No image optimization pipeline  
+
+This project focuses on frontend architecture, UI design, routing, and state management.
+
+---
+
+## Setup Instructions
+
+Follow these exact steps:
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/amanvermalmv211/saffronsugar
+
+# Navigate into the project directory
+cd saffronsugar
+
+# Install dependencies
+npm install
+
+# Start the development server
+npm run dev

@@ -30,7 +30,7 @@ const Navbar = () => {
 
         <Link
           to="/"
-          className="text-2xl font-heading text-primary tracking-wide"
+          className="text-2xl font-heading text-primary tracking-wide font-serif"
         >
           {brand.name}
         </Link>
