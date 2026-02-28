@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+/* Your Custom Theme */
+@theme {
+  --color-primary: #C2410C;
+  --color-secondary: #7C2D12;
+  --color-cream: #FFF7ED;
+  --color-accent: #FBBF24;
+}
+
+@theme {
+  --animate-scrollani: scollani 30s linear infinite;
+}
+
+@keyframes scollani {
+  from { transform: translateX(0); }
+  to { transform: translateX(-100%); }
+}
