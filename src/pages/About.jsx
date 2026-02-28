@@ -21,20 +21,20 @@ const About = () => {
       </div>
 
       <div className="max-w-4xl mx-auto leading-relaxed text-lg text-gray-700 space-y-6 mb-24">
-        <p>
+        <p className="max-lg:text-justify">
           {brand.name} began as a humble family dream in the heart of
           Indiranagar. In 1994, our father opened a small sweet shop with just
           a handful of recipes passed down through generations.
         </p>
 
-        <p>
+        <p className="max-lg:text-justify">
           There were no marketing campaigns, no grand openings — just the aroma
           of slow-cooked sugar and roasted nuts drifting through the street.
           Word spread not because we advertised, but because neighbours kept
           coming back.
         </p>
 
-        <p>
+        <p className="max-lg:text-justify">
           Today, three decades later, we still prepare every batch with the
           same patience. We believe sweetness isn’t rushed — it’s crafted,
           stirred slowly, and shared warmly.
@@ -127,12 +127,12 @@ const About = () => {
             Meet The Founder
           </h2>
 
-          <p className="text-gray-700 mb-4">
+          <p className="text-gray-700 mb-4 max-lg:text-justify">
             Rajesh Sharma started Saffron & Sugar with a single stove and a
             belief — that sweets should taste like home.
           </p>
 
-          <p className="text-gray-700">
+          <p className="text-gray-700 max-lg:text-justify">
             Even today, you’ll find him in the kitchen every morning, tasting
             each batch personally before it reaches the counter.
           </p>

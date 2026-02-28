@@ -44,7 +44,7 @@ const Home = () => {
             Three Decades of Sweet Memories
           </h2>
 
-          <p className="text-lg leading-relaxed text-gray-700">
+          <p className="text-lg leading-relaxed text-gray-700 max-lg:text-justify">
             Tucked away in the heart of Indiranagar, Saffron & Sugar began in
             1994 as a small family-run kitchen. What started with just two trays
             of laddoos slowly grew into a neighbourhood ritual. Weddings,
@@ -102,7 +102,7 @@ const Home = () => {
             <h2 className="text-4xl font-heading text-primary mb-6">
               This Season’s Special
             </h2>
-            <p className="text-lg text-gray-700 mb-6">
+            <p className="text-lg text-gray-700 mb-6 max-lg:text-justify">
               Our limited-edition Dry Fruit Ghewar is handcrafted only during
               festive months. Infused with cardamom and layered with premium
               nuts, it disappears from the shelves faster than we can make it.

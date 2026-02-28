@@ -29,12 +29,12 @@ const Menu = () => {
         </p>
       </div>
 
-      <div className="max-w-6xl mx-auto flex flex-wrap justify-center gap-4 mb-16">
+      <div className="max-w-6xl mx-auto flex flex-wrap justify-center gap-3 lg:gap-4 mb-16">
         {categories.map((category) => (
           <button
             key={category}
             onClick={() => dispatch(setCategory(category))}
-            className={`px-6 py-2 rounded-full text-sm font-medium transition 
+            className={`px-4 lg:px-6 py-2 rounded-full text-sm font-medium transition 
               ${activeCategory === category
                 ? "bg-primary text-white shadow-md"
                 : "bg-white text-secondary hover:bg-accent hover:text-secondary"

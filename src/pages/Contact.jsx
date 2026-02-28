@@ -36,7 +36,7 @@ const Contact = () => {
         <h1 className="text-4xl md:text-5xl font-heading text-primary mb-4">
           Come Say Hello
         </h1>
-        <p className="text-lg text-gray-600">
+        <p className="text-lg text-gray-600 max-lg:text-justify">
           Whether you're planning a celebration or just craving something sweet —
           our doors are always open.
         </p>
